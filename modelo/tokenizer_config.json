@@ -58,5 +58,6 @@
   "tokenizer_class": "DistilBertTokenizer",
   "truncation_side": "right",
   "truncation_strategy": "longest_first",
-  "unk_token": "[UNK]"
+  "unk_token": "[UNK]",
+  "use_safetensors": 1
 }

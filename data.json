@@ -1,8 +1,10 @@
 {
-    "csv":"archivo.csv",
+    "csv":"dataset/spam.csv",
     "csv_a_limpiar":"dataset/spam_ham_dataset.csv",
+    "csv_test":"dataset/spam2.csv",
     "model":"modelo",
     "model_to_save":"modelo",
     "use_tensor":1,
+    "use_tensor_prediction":1,
     "example_file":"spam-ham.txt"
 }
