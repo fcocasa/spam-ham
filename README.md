@@ -29,12 +29,12 @@ En el archivo *data.json* se encunentran los parametros a configurar.
     "example_file":"spam-ham.txt"
 }
 ```
--**csv**: El archivo que se lee para entrenar el modelo, debe tener dos columnas, una con nombre **text** y otra con nombre **label**
--**csv_a_limpiar**: Existe un archivo que se descargo de kaggle que se limpio, aca esta la direccion de dicho archivo
--**model**: Que modelo se lee, puede ser tanto local como remoto (usar una direccion de HugginFace)
--**model_to_save**: Una vez entrenado el modelo, se guarda en esta carpeta
--**use_tensor**: En caso de usar un modelo local (archivo .safetensors), debe estar en 1 (True), sino 0 (False)
--**example_file**: Archivo de texto al que se le realizará una prediccion
+ - **csv**: El archivo que se lee para entrenar el modelo, debe tener dos columnas, una con nombre **text** y otra con nombre **label**
+ - **csv_a_limpiar**: Existe un archivo que se descargo de kaggle que se limpio, aca esta la direccion de dicho archivo
+ - **model**: Que modelo se lee, puede ser tanto local como remoto (usar una direccion de HugginFace)
+ - **model_to_save**: Una vez entrenado el modelo, se guarda en esta carpeta
+ - **use_tensor**: En caso de usar un modelo local (archivo .safetensors), debe estar en 1 (True), sino 0 (False)
+ - **example_file**: Archivo de texto al que se le realizará una prediccion
 
 ### Comando
 
