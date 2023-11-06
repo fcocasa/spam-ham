@@ -12,7 +12,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 ## Ejecutar
 
-El mensaje a clasificar se encuentra en un archivo de text *spam-ham.txt*
+El mensaje a clasificar se encuentra en un archivo de texto *spam-ham.txt*
 
 ### Comando
 
