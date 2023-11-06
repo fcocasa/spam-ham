@@ -16,6 +16,12 @@ pip3 install evaluate
 pip3 install json
 pip3 install pandas
 
+### Limpiar Texto
+
+pip3 install nltk
+pip install -U spacy
+python -m spacy download en_core_web_lg
+
 ## Ejecutar
 
 En el archivo *data.json* se encunentran los parametros a configurar.
@@ -45,6 +51,10 @@ python3 spam.py
 #### Para Entrenar el modelo
 
 python3 train_custom_data.py
+
+#### Limpiar Texto
+
+python3 clean_dataset.py
 
 ## Recomendacion
 
