@@ -2,7 +2,7 @@
 
 Es un proyecto creado para difrenciar mensajes estilo Spam y Ham.
 
-Proyecto pasado en el modelo pre-entrenado de:
+Proyecto basado en el modelo pre-entrenado de:
 
 https://huggingface.co/skandavivek2/spam-classifier
 
