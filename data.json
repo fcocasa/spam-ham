@@ -1,0 +1,8 @@
+{
+    "csv":"archivo.csv",
+    "csv_a_limpiar":"dataset/spam_ham_dataset.csv",
+    "model":"modelo",
+    "model_to_save":"modelo",
+    "use_tensor":1,
+    "example_file":"spam-ham.txt"
+}

@@ -2,13 +2,19 @@ import os
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch.nn.functional as F
-import sys
+import json
 
-with open('spam-ham.txt') as file:
+with open('data.json','r') as file:
+    data = json.load(file)
+
+with open(data['example_file']) as file:
     texto = file.read()
 
-tokenizer = AutoTokenizer.from_pretrained("skandavivek2/spam-classifier")
-model = AutoModelForSequenceClassification.from_pretrained("skandavivek2/spam-classifier")
+# tokenizer = AutoTokenizer.from_pretrained("skandavivek2/spam-classifier")
+# model = AutoModelForSequenceClassification.from_pretrained("skandavivek2/spam-classifier")
+tokenizer = AutoTokenizer.from_pretrained(data["model"],use_safetensors=data["use_tensor"])
+model = AutoModelForSequenceClassification.from_pretrained(data["model"],use_safetensors=data["use_tensor"])
+
 
 inputs = tokenizer(texto, return_tensors="pt")
 
