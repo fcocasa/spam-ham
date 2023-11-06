@@ -5,22 +5,30 @@ Es un proyecto creado para difrenciar mensajes estilo Spam y Ham.
 ## Qué instalar
 
 pip3 install transformers
+
 pip3 install wheel
+
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 ### Re Entrenar
 
 pip3 install datasets 
+
 pip3 install numpy
+
 pip3 install evaluate
+
 pip3 install json
+
 pip3 install pandas
 
 ### Limpiar Texto
 
 pip3 install nltk
-pip install -U spacy
-python -m spacy download en_core_web_lg
+
+pip3 install -U spacy
+
+python3 -m spacy download en_core_web_lg
 
 ## Ejecutar
 
