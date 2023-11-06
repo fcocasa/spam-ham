@@ -4,7 +4,7 @@ Es un proyecto creado para difrenciar mensajes estilo Spam y Ham.
 
 Proyecto pasado en el modelo pre-entrenado de:
 
-https://huggingface.co/skandavivek2/spam-classifier?text=Hello%2C%0A%0AWe+contacted+you+at+the+end+of+October+asking+for+feedback+on+the+ICANN78+ccNSO+Members+Meeting.++So+far+22+people+have+responded.++We+would+be+very+grateful+if+you+could+complete+our+short+survey+%283+minutes+long%29+to+help+us+understand+what+went+well+%28and+not+so+well%29.%0A%0AHow+do+you+give+your+feedback%3F+Go+to+https%3A%2F%2Fwww.surveymonkey.com%2Fr%2FICANN78ccNSOMM%0A%0AThe+online+survey+will+be+open+until+Wednesday%2C+8+November+2023%2C+23%3A59+UTC.%0A%0AYour+feedback+is+valuable+input+for+the+ccNSO+Meeting+Programme+Committee+as+they+prepare+for+ICANN79+in+March+%2724.%0A%0AThank+you+very+much%21%0A%0ABest+regards%2C
+https://huggingface.co/skandavivek2/spam-classifier
 
 ## Qué instalar
 
