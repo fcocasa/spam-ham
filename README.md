@@ -10,6 +10,10 @@ pip3 install wheel
 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
+### Re Entrenar
+
+pip3 install pandas
+
 ## Ejecutar
 
 El mensaje a clasificar se encuentra en un archivo de texto *spam-ham.txt*
